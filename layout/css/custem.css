@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+   
+}
+
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4{
+    color: rgb(172, 42, 177) ;
+}
+h1{
+    color: rgb(172, 42, 177) ;
+}
+
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color: rgba(255, 255, 255, 0.932) ;
+}
+.login .btn{
+    background-color: #3f75e9;
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+}
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+.nav>li>a,
+.navbar-brand{
+    padding: 15px 12px;
+}
+
+.navbar-brand{
+    font-size: 1em;
+}
+
+
+/* start member page*/
+
+h2{
+    font-size: 50px;
+    margin:40px 0px;
+    font-weight: bold;
+    color: #666;
+}
+.main-table{
+    background: whitesmoke;
+    vertical-align: middle !important;
+}
+.main-table tr:first-child td{
+    background-color: #333;
+    color: #fff;
+}
+.fas{
+    font-size: 30px;
+}
+.fa-user-check{
+    color: green;
+}
+.nv{
+    font-size: 15px;
+}
+.confirm{
+    color: red;
+}
+.alert{
+    text-align: center;
+    color: #fff;
+}
+
+/* start Dashbord pagae */
+
+.hom-stats .stat{
+    padding: 20px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+.hom-stats .st-members{
+    background-color: #474787;
+}
+.hom-stats .st-pending{
+    background-color: #2ecc71;
+}
+.hom-stats .st-items{
+    background-color: #e67e22;
+}
+.hom-stats .st-comments{
+    background-color: #911bc0;
+}
+
+.hom-stat .stat a:hover{
+    text-decoration: none;
+}
+
+.hom-stat .stat a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.dash{
+    display: block;
+    font-size: 60px;
+    color: #fff;
+ }
+.latest{
+    margin-top: 30px; 
+}
+.list-group{
+    float: left;
+}
+.cat{
+    font-size: 20px;
+    color: black;
+}
+.panel-heading{
+    background-color: darkgray;
+}
+
+
+/* start category page*/
+
+.categories .cat h3{
+    margin:0 0 10px ;
+}
+.categories .cat:last-of-type ~ hr{
+
+display: none;
+}
+
+.categories .cat .Visibility{
+    background-color: #c0392b;
+    border-radius: 7px;
+    padding: 3px;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.categories .cat .comment{
+    background-color: #34495e;
+    border-radius: 7px;
+    padding: 3px;
+    margin-right: 5px;
+    color: #fff;
+}
+.list-group{
+    padding: 50px 200px;
+}
+.list-group-item{
+    padding-left:50px;
+    background-color:#ecedf1;
+}
+
+.control{
+    position: absolute;
+    top:50px;
+    right: 10px;
+}
+
+.ordering{
+    text-decoration: none;
+    color: #fff;
+}
+
+.categories .ordering a{
+    color: #888;
+    text-decoration: none;
+}
+.categories .ordering a{
+    color:#f00;
+    font-weight: bold;
+}
+.adduser{
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.information ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+.information ul li{
+    padding: 10px;
+}
+.card{
+    float: left;
+    display: block;
+}
